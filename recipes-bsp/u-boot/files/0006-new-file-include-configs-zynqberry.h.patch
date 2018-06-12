@@ -8,11 +8,10 @@ Subject: [PATCH 6/8] 	new file:   include/configs/zynqberry.h
  1 file changed, 91 insertions(+)
  create mode 100644 include/configs/zynqberry.h
 
-diff --git a/include/configs/zynqberry.h b/include/configs/zynqberry.h
-new file mode 100644
-index 0000000..bbbeca3
+Index: git/include/configs/zynqberry.h
+===================================================================
 --- /dev/null
-+++ b/include/configs/zynqberry.h
++++ git/include/configs/zynqberry.h
 @@ -0,0 +1,90 @@
 +/*
 + * (C) Copyright 2013 Xilinx, Inc.
@@ -104,6 +103,3 @@ index 0000000..bbbeca3
 +
 +
 +#endif /* __CONFIG_ZYNQ_ZED_H */
--- 
-1.9.1
-
