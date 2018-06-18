@@ -1,6 +1,7 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}:"
 
-SRC_URI += "file://zynqberry.dts"
+SRC_URI += "file://zynqberry.dts \
+file://defconfig"
 
 do_copy_devicetree () {
 #	mkdir -p ${S}/arch/arm/dts
